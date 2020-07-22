@@ -35,7 +35,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #0085A1;
+  color: #3077FD;
 }
 
 blockquote {
@@ -273,7 +273,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #3077FD;
 }
 
 .post-preview > a > .post-title {
@@ -301,7 +301,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
-  color: #0085A1;
+  color: #3077FD;
 }
 
 @media only screen and (min-width: 768px) {
@@ -393,14 +393,14 @@ footer .copyright {
 }
 
 .btn-primary {
-  background-color: #0085A1;
-  border-color: #0085A1;
+  background-color: #222222;
+  border-color: #222222;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #00657b !important;
-  border-color: #00657b !important;
+  background-color: #3077FD !important;
+  border-color: #3077FD !important;
 }
 
 .btn-lg {
