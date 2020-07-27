@@ -190,7 +190,8 @@ header.masthead .overlay {
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  padding: 200px 0 150px;
+  padding: 200px 0;
+  padding-bottom: 0px;
   color: white;
 }
 
@@ -199,6 +200,7 @@ header.masthead .site-heading {
   header.masthead .post-heading,
   header.masthead .site-heading {
     padding: 200px 0;
+    padding-bottom: 0px;
   }
 }
 
@@ -407,3 +409,12 @@ footer .copyright {
   font-size: 16px;
   padding: 25px 35px;
 }
+
+input[type=text] {
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
