@@ -135,3 +135,58 @@ footer.footer {
 .grey{
   background-color: #F1F5F5;
 }
+.bg-blue {
+  background-color: #3077FD !important;
+}
+
+.profile-head{
+  border-radius:50%;
+}
+
+.how-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 25px;
+  background-color: #3077FD;
+}
+
+.how-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.sesh-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 25px;
+  background-color: #fff;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.sesh-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.numCircle {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    padding: 8px;
+
+    background: #3077FD;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+.bCircle {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+
+    background: black;
+    border: 2px solid #fff;
+    color: black;
+    text-align: center;
+}
